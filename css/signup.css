@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.sign {
+  background-color: #f3f3f3;
+  box-shadow: 0.4em 0.4em 0.6em rgba(0, 0, 0, 0.2);
+  border-right: 2px solid #a09e9e;
+}
+.sign input {
+  border-top: 2px solid #a09e9e;
+  border-left: 2px solid #a09e9e;
+}
+.sign input:focus {
+  border: none;
+  box-shadow: none;
+}
+.sign button {
+  color: white;
+  background-color: #cd5c5c !important;
+  border: 2px solid rgb(202, 201, 201);
+}
+.sign button:hover {
+  color: white !important;
+}
+.sign h2 {
+  color: #cd5c5c;
+}
+input[type="date"] {
+  color: #cd5c5c;
+}

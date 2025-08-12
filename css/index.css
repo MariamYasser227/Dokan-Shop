@@ -1,0 +1,236 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.bg-dark {
+  background-color: #343a40 !important;
+}
+.collapse .navbar-nav .nav-item a {
+  color: white !important;
+}
+.collapse .navbar-nav .nav-item:first-child a {
+  color: #cd5c5c !important;
+}
+.collapse .navbar-nav .nav-item:first-child a:hover {
+  color: white !important;
+}
+.collapse .nav-item a.nav-link {
+  transition: all 0.5s ease-in-out;
+}
+.collapse .nav-item a.nav-link:hover {
+  border-radius: 2em;
+  background-color: #cd5c5c !important;
+  scale: 0.8;
+  text-transform: uppercase;
+}
+.collapse .dropdown-menu a.dropdown-item {
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+.collapse .dropdown-menu a.dropdown-item:hover {
+  background-color: #cd5c5c !important;
+  padding-left: 1.5em;
+  text-transform: uppercase;
+}
+.collapse .dropdown-menu .dropdown-divider {
+  background-color: #cd5c5c !important;
+}
+.carousel-inner img {
+  height: 100vh;
+  object-fit: cover;
+  object-position: top;
+}
+.carousel-caption {
+  z-index: 2;
+}
+.carousel-inner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.carousel-indicators .active {
+  background-color: #cd5c5c !important;
+}
+.text {
+  padding: 1.8em;
+}
+.Latest-Products .text p,
+.store .text p,
+.Hot-Deals .text p,
+.feedback .text p {
+  color: #777;
+  line-height: 2;
+  letter-spacing: 0.1em;
+}
+.Latest-Products .container .fas.fa-heart,
+.Latest-Products .container .fas.fa-cart-plus {
+  cursor: pointer;
+  color: #a9a9a9;
+  transition: all ease-in-out;
+}
+.Latest-Products .container .fas.fa-heart:hover,
+.Latest-Products .container .fas.fa-cart-plus:hover {
+  color: #cd5c5c;
+}
+.Latest-Products .container .info p {
+  color: #777;
+}
+.Latest-Products .container a {
+  width: 40%;
+  background-color: #cd5c5c;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.Latest-Products .container a:hover {
+  scale: 1.1;
+}
+.Latest-Products .text h1,
+.store .text h1,
+.Hot-Deals .text h1,
+.feedback .text h1 {
+  letter-spacing: 0.15em;
+}
+.image1,
+.image2,
+.image3 {
+  position: relative;
+  overflow: hidden;
+}
+.Hot-Deals .Deals .container .image1::after {
+  content: "Enjoy 50% Discount On Black Friday";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  opacity: 0.95;
+  transition: transform 0.5s ease-in-out;
+  background-color: #cd5c5c;
+  text-align: left;
+  color: white;
+  font-weight: bold;
+  transition: all 0.5s ease-in-out;
+  padding: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+}
+.Hot-Deals .Deals .container .image1:hover::after {
+  transform: translate(-50%, -50%) scale(1);
+  height: 80%;
+  width: 65%;
+}
+.Hot-Deals .Deals .container .image2::after {
+  content: "Enjoy Up To 70% sale On Weekend";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  opacity: 0.95;
+  transition: transform 0.5s ease-in-out;
+  background-color: #cd5c5c;
+  text-align: left;
+  color: white;
+  font-weight: bold;
+  transition: all 0.5s ease-in-out;
+  padding: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+}
+.Hot-Deals .Deals .container .image2:hover::after {
+  transform: translate(-50%, -50%) scale(1);
+  height: 80%;
+  width: 65%;
+}
+.Hot-Deals .Deals .container .image3::after {
+  content: "Enjoy Free Delivery While Registering";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  opacity: 0.95;
+  transition: transform 0.5s ease-in-out;
+  background-color: #cd5c5c;
+  text-align: left;
+  color: white;
+  font-weight: bold;
+  transition: all 0.5s ease-in-out;
+  padding: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+}
+.Hot-Deals .Deals .container .image3:hover::after {
+  transform: translate(-50%, -50%) scale(1);
+  width: 65%;
+  height: 80%;
+}
+
+.feedback .Submit button {
+  background-color: #cd5c5c;
+  border: none;
+  color: white;
+}
+.feedback .Submit button:focus {
+  background-color: #cd5c5c;
+  border: 3px solid #cd5c5c;
+}
+.feedback .container .form input,
+.feedback .container .form textarea {
+  border: 1px solid black;
+}
+.feedback .container .form input:focus,
+.feedback .container .form textarea:focus {
+  outline: none;
+  box-shadow: none;
+}
+.feedback .container h3 {
+  color: #cd5c5c;
+  text-decoration: underline;
+}
+.feedback .container p {
+  color: #777;
+}
+.footer .fa-user-secret {
+  color: white;
+}
+.footer .Sections a {
+  color: white;
+}
+.footer .Sections a:hover {
+  color: #cd5c5c;
+}
+.footer hr {
+  color: white;
+}
+.footer .last .fa-brands {
+  color: white;
+}
+
+.footer .last a:hover .fa-facebook {
+  color: #1877f2;
+}
+
+.footer .last a:hover .fa-twitter {
+  color: #1da1f2;
+}
+
+.footer .last a:hover .fa-whatsapp {
+  color: #25d366;
+}
+
+.footer .last a:hover .fa-youtube {
+  color: #ff0000;
+}
