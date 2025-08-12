@@ -234,3 +234,9 @@
 .footer .last a:hover .fa-youtube {
   color: #ff0000;
 }
+.icon {
+  font-size: 4.5rem !important;
+}
+.footer span:hover {
+  color: #cd5c5c;
+}

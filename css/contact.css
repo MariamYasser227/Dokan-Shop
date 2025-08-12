@@ -19,3 +19,7 @@
 .container p {
   color: #777;
 }
+.icon {
+  font-size: 4.5rem !important;
+  color: white;
+}
