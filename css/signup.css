@@ -20,10 +20,17 @@
 .sign button {
   color: white;
   background-color: #cd5c5c !important;
-  border: 2px solid rgb(202, 201, 201);
+  border-right: 2px solid #a09e9e;
+  border-bottom: 2px solid #a09e9e;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
 }
-.sign button:hover {
+.sign button:focus {
   color: white !important;
+  border-left: 2px solid #a09e9e;
+  border-top: 2px solid #a09e9e;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
 }
 .sign h2 {
   color: #cd5c5c;
